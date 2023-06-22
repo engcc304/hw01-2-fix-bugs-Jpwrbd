@@ -11,5 +11,17 @@
         First Name: ABC
         Last Name: DEF
     Output:
-        ABD DEFs TC, RMUTL, Chiang Mai, Thailand
+        ABD DEF TC, RMUTL, Chiang Mai, Thailand
 */
+
+#include <stdio.h>
+int main() {
+    char firstName[] = "Aomsin";
+    char lastName[] = "AomMoney";
+    char address[] = "TC, RMUTL, Chiang Mai, Thailand";
+    char firstName2[] = "ABC";
+    char lastName2[] = "DEF";
+    char address2[] = "TC, RMUTL, Chiang Mai, Thailand";
+    printf("Output: %s %s %s\n", firstName, lastName, address);
+    printf("Output: %s %s %s\n", firstName2, lastName2, address2);
+}
