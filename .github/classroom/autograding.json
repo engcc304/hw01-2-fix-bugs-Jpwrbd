@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Fix bugs and display",
+      "setup": "g++ -o a.out ./Homework/HW01/hw01-2-fix-bug.cpp",
+      "run": "./a.out",
+      "input": "",
+      "output": "Hello, I'm Javis (RMUTL-Version).\r\nThis is my first time to coding with C language.\r\nToday is my birthday.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
